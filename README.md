@@ -1,4 +1,4 @@
-# @babel/plugin-transform-enum-literal
+# babel-plugin-transform-enum-literal
 
 ## Example
 
@@ -25,7 +25,7 @@ const EnumColor = {
 ## Installation
 
 ```sh
-npm install --save-dev git+https://github.com/PavelDymkov/babel-plugin-transform-enum-literal.git
+npm install --save-dev babel-plugin-transform-enum-literal
 ```
 
 ## Usage
