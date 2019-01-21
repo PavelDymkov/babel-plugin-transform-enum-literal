@@ -1,5 +1,5 @@
 {
-  "name": "@babel/plugin-transform-enum-literal",
+  "name": "babel-plugin-transform-enum-literal",
   "version": "1.0.0",
   "description": "Compile a special enum literal",
   "main": "lib/index.js",
