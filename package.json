@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-enum-literal",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Compile a special enum literal",
   "main": "lib/index.js",
   "scripts": {

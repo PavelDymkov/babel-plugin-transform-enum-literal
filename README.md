@@ -36,6 +36,6 @@ npm install --save-dev babel-plugin-transform-enum-literal
 
 ```json
 {
-  "plugins": ["@babel/plugin-transform-enum-literal"]
+  "plugins": ["babel-plugin-transform-enum-literal"]
 }
 ```
