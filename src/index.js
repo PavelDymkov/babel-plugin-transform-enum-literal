@@ -1,3 +1,6 @@
+import not from "logical-not";
+
+
 export default ({ types: t }) => {
     return {
         name: "transform-enum-literal",
@@ -5,6 +8,9 @@ export default ({ types: t }) => {
         visitor: {
             ObjectExpression(path, { file: { code } }) {
                 let { node, parentPath } = path;
+
+                if (not(node.loc)) return;
+
                 let { column, line } = node.loc.start;
 
                 if (code.split("\n")[line - 1][column - 1] != "(") return;
@@ -30,8 +36,4 @@ export default ({ types: t }) => {
             },
         },
     };
-
-    function not(value) {
-        return !value;
-    }
 };
